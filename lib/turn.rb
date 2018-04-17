@@ -40,6 +40,7 @@ def turn (board)
     move(board, index)
     display_board(board)
   else
-    puts "Please enter a valid move"
+    puts "Please enter a valid move :"
+    gets.strip
   end
 end
