@@ -35,10 +35,10 @@ end
 def turn (board)
   puts "Please enter 1-9:"
   input = gets.strip
-  if input_to_index(input)
-    move(board, input)
-    display_board(board)
-  else
-    puts "Please enter a valid move"
-  end
+  #if input_to_index(input)
+    #move(board, input)
+    #display_board(board)
+  #else
+    #puts "Please enter a valid move"
+  #end
 end
